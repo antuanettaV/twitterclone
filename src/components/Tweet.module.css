@@ -1,0 +1,65 @@
+.tweetContainer {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .tweetContainer:hover {
+    transform: scale(1.02);
+  }
+  
+  .userName {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .content {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .interactions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .interactionButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1da1f2;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .interactionButton:hover {
+    color: #0d8ddb;
+  }
+  
+  @media (max-width: 768px) {
+    .tweetContainer {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tweetContainer {
+      padding: 8px;
+    }
+  }
+  
